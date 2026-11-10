@@ -908,19 +908,6 @@
         closeAdmin();
       }
     });
-
-    // Close overlays on background click
-    document.getElementById('adminOverlay').addEventListener('click', e => {
-      if (e.target === document.getElementById('adminOverlay')) closeAdmin();
-    });
-    document.getElementById('modal').addEventListener('click', e => {
-      if (e.target === document.getElementById('modal')) closeModal();
-      </script>
- <script> if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js');
-    });
-  }
   </script>
 </body>
 </html>
