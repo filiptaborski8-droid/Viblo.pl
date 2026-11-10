@@ -915,13 +915,12 @@
     });
     document.getElementById('modal').addEventListener('click', e => {
       if (e.target === document.getElementById('modal')) closeModal();
-    });
- <script>
-  if ('serviceWorker' in navigator) {
+      </script>
+ <script> if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js');
     });
   }
-</script>
+  </script>
 </body>
 </html>
