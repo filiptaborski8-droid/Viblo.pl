@@ -1,0 +1,18 @@
+VIBLO — PAKIET PWA
+
+Pliki:
+- index.html — aktualna wersja Viblo z Moją listą i dokładnym zapisem postępu
+- manifest.webmanifest — nazwa, wygląd i ustawienia instalacji
+- sw.js — Service Worker i podstawowe buforowanie aplikacji
+- icons/ — ikony Viblo 192x192 i 512x512
+
+INSTALACJA / PUBLIKACJA
+1. Wgraj całą zawartość tego folderu na hosting obsługujący HTTPS (np. GitHub Pages, Netlify lub własny serwer).
+2. Zachowaj strukturę folderów, szczególnie katalog icons.
+3. Otwórz opublikowany adres w Chrome/Edge (Android/komputer) albo Safari (iPhone).
+4. Wybierz „Zainstaluj aplikację” lub „Dodaj do ekranu początkowego”.
+
+Ważne:
+- PWA wymaga HTTPS (wyjątkiem jest localhost podczas testów).
+- Tryb offline buforuje samą aplikację i jej pliki. Odtwarzanie filmów z zewnętrznych serwisów wymaga internetu.
+- Dane zapisane w localStorage pozostają lokalne dla danej przeglądarki/urządzenia.
